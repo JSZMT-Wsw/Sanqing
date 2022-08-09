@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="O3_S5P_TROPOMI">
+    <input des="areaID" identify="areaID" type="string">300000000000</input>
+    <input des="产品期次" identify="issue" type="string">202009010000</input>
+    <input des="产品周期" identify="cycle" type="string">COOD</input>
+    <input des="输入文件路径" identify="inputFile" type="string">
+       D:\JiNan\Proj\Data\S5PO3\2020-09-01\S5P_NRTI_L2__O3_____20200901T054409_20200901T054909_14951_01_020103_20200901T062507.nc
+    </input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:/JiNan/Proj/Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">
+        D:/JiNan/Proj/outXML/NO2_S5P_TROPOMI_202006111558.xml
+    </output>
+    <output des="log目录" identify="outLogPath" type="string">
+        D:/JiNan/Proj/outLog/NO2_S5P_TROPOMI_202006111558.log
+    </output>
+</xml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="DUST_SATPY_H8_AHI">
+    <input des="areaID" identify="areaID" type="string">100000000000</input>
+    <input des="产品期次" identify="issue" type="string">202103150800</input>
+    <input des="产品周期" identify="cycle" type="string">COOH</input>
+    <input des="输入文件路径" identify="inputFile" type="string">
+        D:/PUUSDATA/H8HSD/2021-03-15/00
+    </input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:/001Project/006SanQing/Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">
+       D:/001Project/006SanQing/outXML/DUST_SATPY_H8_AHI_202001310508.xml
+    </output>
+    <output des="log目录" identify="outLogPath" type="string">
+        D:/001Project/006SanQing/outLog/DUST_SATPY_H8_AHI_202001310508.log
+    </output>
+</xml>

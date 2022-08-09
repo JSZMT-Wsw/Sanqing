@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="AODDB_H8_AHI">
+    <input des="areaID" identify="areaID" type="string">300000000000</input>
+    <input des="产品期次" identify="issue" type="string">201911030000</input>
+    <input des="产品周期" identify="cycle" type="string">COOH</input>
+    <input des="输入文件路径" identify="inputFile" type="string">
+        D:\JiNan\Proj\Data\H8L1\2019-11-03\NC_H08_20191103_0000_R21_FLDK.06001_06001.nc
+    </input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:/JiNan/Proj/Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">
+        D:/JiNan/Proj/outXML/AOD_H8_AHI_202010140000.xml
+    </output>
+    <output des="log目录" identify="outLogPath" type="string">
+        D:/JiNan/Proj/outLog/AOD_H8_AHI_202010140000.log
+    </output>
+</xml>

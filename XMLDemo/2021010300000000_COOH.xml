@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml identify="AODDB_H8_AHI">
+  <input des="areaID" identify="areaID" type="string">300000000000</input>
+  <input des="产品期次" identify="issue" type="string">202101030000</input>
+  <input des="产品周期" identify="cycle" type="string">COOH</input>
+  <input des="输入文件路径" identify="inputFile" type="string">D:\PUUSDATA\H8L1</input>
+  <input des="输出文件夹路径" identify="outFolder" type="string">D:\JiNan\Production</input>
+  <input des="输出xml目录" identify="outXMLPath" type="string">D:\JiNan\Production\AODDB_H8_AHI\outputInfo\outXML\AODDB_H8_AHI_20210103000000.xml</input>
+  <input des="log目录" identify="outLogPath" type="string">D:\JiNan\Production\AODDB_H8_AHI\outputInfo\outLog\AODDB_H8_AHI_20210103000000.log</input>
+</xml>

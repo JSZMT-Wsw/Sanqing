@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <xml identify="PM25_H8_AHI_COMPOSE">
+    <input des="areaID" identify="areaID" type="string">300000000000</input>
+    <input des="产品期次" identify="issue" type="string">201909010000</input>
+	<input des="产品周期" identify="cycle" type="string">COOD</input>
+    <input des="输入文件路径" identify="inputFile" type="string">D:\Proj\GeoserverFolder\PM10_H8_AHI\pm10_h8_ahi_cood20190901T000000000Z.tif,D:\Proj\GeoserverFolder\PM10_H8_AHI\pm10_h8_ahi_cood20190902T000000000Z.tif</input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:\JiNan\Proj\Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">D:/JiNan/Proj/outXML/PM10_H8_AHI_COMPOSE_201909010800.xml</output>
+    <output des="log目录" identify="outLogPath" type="string">D:/JiNan/Proj/outLog/PM10_H8_AHI_COMPOSE_201909010800.log</output>
+</xml>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="布局" printResolution="100" drivenPages="true" Margin="105">
+    <PageCollection>
+        <LayoutItem type="PageSetup" frame="True" background="True" outlineWidthM="1" size="11.36,13.93">
+            <FrameColor red="0" green="0" blue="0" alpha="0" />
+            <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        </LayoutItem>
+    </PageCollection>
+    <LayoutItem type="DataFrame" frame="true" background="true" outlineWidthM="1" positionOnPage="0.06, 0.18, 0.90, 0.72">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="242" green="239" blue="232" alpha="255"/>
+        <Extent xmax="122.13857" xmin="118.02251" ymin="27.166496" ymax="31.180706"/>
+        <ComposerMapGrid gridFrameStyle="1" gridFrameWidth="8" gridFramePenThickness="2" gridFramePenColor="0,0,0,255" gridFramePad="3" topAnnotationDisplay="3" bottomAnnotationDisplay="1" leftAnnotationDisplay="1"  rightAnnotationDisplay="3" name="grid">
+            <lineStyle>Null</lineStyle>
+            <markerStyle>Null</markerStyle>
+            <annotationFontProperties description="Times New Roman,10" style="null"/>
+        </ComposerMapGrid>
+    </LayoutItem>
+
+
+    <!-- <LayoutItem type="Rasters" isOutRaster="false" coverageLayerName="CLT" zorder='9' file="D:/New_JiNan/RSPlatForm/Depend/JiNan/CompShp/AreaNation.shp"> -->
+        <!-- <ReMaps Unit="" FillValue="0"> -->
+            <!-- <ReMap id="1" MinV="0.9" MaxV="1.9" ReV="1" Color="204,204,255" Label="卷云"/> -->
+            <!-- <ReMap id="2" MinV="1.9" MaxV="2.9" ReV="2" Color="102,102,255" Label="卷层云"/> -->
+            <!-- <ReMap id="3" MinV="2.9" MaxV="3.9" ReV="3" Color="0,0,255" Label="深对流"/> -->
+            <!-- <ReMap id="4" MinV="3.9" MaxV="4.9" ReV="4" Color="255,255,204" Label="高积云"/> -->
+            <!-- <ReMap id="5" MinV="4.9" MaxV="5.9" ReV="5" Color="255,255,0" Label="高层云"/> -->
+            <!-- <ReMap id="6" MinV="5.9" MaxV="6.9" ReV="6" Color="204,204,0" Label="雨云层"/> -->
+            <!-- <ReMap id="7" MinV="6.9" MaxV="7.9" ReV="7" Color="255,153,153" Label="积云"/> -->
+            <!-- <ReMap id="8" MinV="7.9" MaxV="8.9" ReV="8" Color="255,102,51" Label="层积云"/> -->
+            <!-- <ReMap id="9" MinV="8.9" MaxV="9.9" ReV="9" Color="255,0,0" Label="层云"/> -->
+        <!-- </ReMaps> -->
+    <!-- </LayoutItem> -->
+    <LayoutItem type="RGB" isOutRaster="false" coverageLayerName="H8RGB" zorder='6' file="D:/New_JiNan/RSPlatForm/Depend/JiNan/CompShp/AreaNation.shp">
+    </LayoutItem>
+
+    <LayoutItem type="Atlas" linestyle="-" frame="true" background="True" outlineWidthM="1" coverageLayerName="AreaNation" zorder='12' file="D:/New_JiNan/RSPlatForm/Depend/JiNan/CompShp/AreaNation.shp">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+    </LayoutItem>
+    <LayoutItem type="Atlas" linestyle="--" frame="true" background="True" outlineWidthM="0.5" coverageLayerName="AreaProvince" zorder='11' file="D:/New_JiNan/RSPlatForm/Depend/JiNan/Other/othershp/AreaProvince.shp">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+    </LayoutItem>
+
+    <LayoutItem type="NorthArrow" name="指北针" positionOnPage="0.98,0.93" Width="0.02" Height="0.06" pad="0.08" >
+        <Font fontFamily="Times New Roman" fontSize="20" fontWeight="16"/>
+    </LayoutItem>
+
+
+
+    <LayoutItem type="Annotation" name="沈阳" lon="123.429092" lat="41.796768">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="长春" lon="125.324501" lat="43.886841">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="哈尔滨" lon="126.642464" lat="45.756966">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="北京" lon="116.405289" lat="39.904987">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="天津" lon="117.190186" lat="39.125595">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="呼和浩特" lon="111.751990" lat="40.841490">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="银川" lon="106.232480" lat="38.486440">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="太原" lon="112.549248" lat="37.857014">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="石家庄" lon="114.502464" lat="38.045475">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="济南" lon="117.000923" lat="36.675808">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="郑州" lon="113.665413" lat="34.757977">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="西安" lon="108.948021" lat="34.263161">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="武汉" lon="114.298569" lat="30.584354">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="南京" lon="118.76741" lat="32.041546">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="合肥" lon="117.283043" lat="31.861191">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="上海" lon="121.472641" lat="31.231707">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="长沙" lon="112.982277" lat="28.19409">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="南昌" lon="115.892151" lat="28.676493">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="杭州" lon="120.15358" lat="30.287458">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="福州" lon="119.306236" lat="26.075302">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="广州" lon="113.28064" lat="23.125177">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="台北" lon="121.5200760" lat="25.0307240">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="海口" lon="110.199890" lat="20.044220">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="南宁" lon="108.320007" lat="22.82402">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="重庆" lon="106.504959" lat="29.533155">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="昆明" lon="102.71225" lat="25.040609">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="贵阳" lon="106.713478" lat="26.578342">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="成都" lon="104.065735" lat="30.659462">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="兰州" lon="103.834170" lat="36.061380">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="西宁" lon="101.777820" lat="36.617290">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="拉萨" lon="91.11450" lat="29.644150">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="乌鲁木齐" lon="87.616880" lat="43.826630">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="香港" lon="114.165460" lat="22.275340">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="澳门" lon="113.549130" lat="22.198750">
+        <Font family="SimHei" Size="10" weight="10" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="30" />
+    </LayoutItem>
+</Layout>

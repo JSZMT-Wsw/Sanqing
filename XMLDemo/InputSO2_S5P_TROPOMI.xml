@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml identify="SO2_S5P_TROPOMI">
+    <input des="areaID" identify="areaID" type="string">300000000000</input>
+    <input des="产品期次" identify="issue" type="string">202009240000</input>
+    <input des="产品周期" identify="cycle" type="string">COOD</input>
+    <input des="输入文件路径" identify="inputFile" type="string">
+        D:\JiNan\Proj\Data\S5PSO2\2020-09-24\S5P_NRTI_L2__SO2____20200924T051337_20200924T051837_15277_01_020103_20200924T055649.nc;
+        D:\JiNan\Proj\Data\S5PSO2\2020-09-24\S5P_NRTI_L2__SO2____20200925T045337_20200925T045837_15291_01_020103_20200925T053953.nc
+        
+<!--        F:\PUUSDATA\S5PSO2\2020-11-09\S5P_NRTI_L2__SO2____20201109T041125_20201109T041625_15929_01_020103_20201109T050326.nc-->
+<!--        F:\PUUSDATA\S5PSO2\2019-11-02\S5P_OFFL_L2__SO2____20191102T012037_20191102T030207_10636_01_010107_20191108T125107.nc;-->
+<!--        F:\PUUSDATA\S5PSO2\2019-11-02\S5P_OFFL_L2__SO2____20191102T030207_20191102T044336_10637_01_010107_20191108T141418.nc;-->
+<!--        F:\PUUSDATA\S5PSO2\2019-11-02\S5P_OFFL_L2__SO2____20191102T062505_20191102T080635_10639_01_010107_20191108T185430.nc;-->
+<!--        F:\PUUSDATA\S5PSO2\2019-11-02\S5P_OFFL_L2__SO2____20191102T080635_20191102T094804_10640_01_010107_20191108T203346.nc-->
+    </input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:/JiNan/Proj/Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">
+        D:/JiNan/Proj/outXML/NO2_S5P_TROPOMI_202006111558.xml
+    </output>
+    <output des="log目录" identify="outLogPath" type="string">
+        D:/JiNan/Proj/outLog/NO2_S5P_TROPOMI_202006111558.log
+    </output>
+</xml>

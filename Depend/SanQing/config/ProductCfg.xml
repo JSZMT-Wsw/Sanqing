@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ProdCfg>
+	<Plugin PluginName="AODDB_H8_AHI">
+		<ProdDesp>气溶胶光学厚度</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="0.2" ReV="1" Color="25,80,250" Label="0~0.2"/>
+			<ReMap id="2" MinV="0.2" MaxV="0.4" ReV="2" Color="58,163,254" Label="0.2~0.4"/>
+			<ReMap id="3" MinV="0.4" MaxV="0.6" ReV="3" Color="21,255,255" Label="0.4~0.6"/>
+			<ReMap id="4" MinV="0.6" MaxV="0.8" ReV="4" Color="161,255,164" Label="0.6~0.8"/>
+			<ReMap id="5" MinV="0.8" MaxV="1.0" ReV="5" Color="231,255,71" Label="0.8~1.0"/>
+			<ReMap id="6" MinV="1.0" MaxV="1.2" ReV="6" Color="245,245,45" Label="1.0~1.2"/>
+			<ReMap id="7" MinV="1.2" MaxV="1.4" ReV="7" Color="255,217,0" Label="1.2~1.4"/>
+			<ReMap id="8" MinV="1.4" MaxV="1.6" ReV="8" Color="255,156,0" Label="1.4~1.6"/>
+			<ReMap id="9" MinV="1.6" MaxV="1.8" ReV="9" Color="255,98,0" Label="1.6~1.8"/>
+			<ReMap id="10" MinV="1.8" MaxV="2.0" ReV="10" Color="254,1,0" Label="1.8~2.0"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="HAZE_H8_AHI">
+		<ProdDesp>灰霾</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="" FillValue="-2">
+			<ReMap id="1" MinV="-1" MaxV="-0.8" ReV="1" Color="51,85,255" Label="低" />
+			<ReMap id="2" MinV="-0.8" MaxV="-0.4" ReV="2" Color="59,147,255" Label="-0.8~-0.4" />
+			<ReMap id="3" MinV="-0.4" MaxV="-0.2" ReV="3" Color="41,219,255" Label="-0.4~-0.2" />
+			<ReMap id="4" MinV="-0.2" MaxV="-0.1" ReV="4" Color="92,255,222" Label="-0.2~-0.1" />
+			<ReMap id="5" MinV="-0.1" MaxV="0" ReV="5" Color="167,255,161" Label="-0.1~0" />
+			<ReMap id="6" MinV="0" MaxV="0.02" ReV="6" Color="218,255,97" Label="0~0.02" />
+			<ReMap id="7" MinV="0.02" MaxV="0.04" ReV="7" Color="255,255,0" Label="0.02~0.04" />
+			<ReMap id="8" MinV="0.04" MaxV="0.06" ReV="8" Color="255,195,0" Label="0.04~0.06" />
+			<ReMap id="9" MinV="0.06" MaxV="0.08" ReV="9" Color="255,132,0" Label="0.06~0.08" />
+			<ReMap id="10" MinV="0.08" MaxV="0.1" ReV="10" Color="255,64,0" Label="0.08~0.1" />
+			<ReMap id="11" MinV="0.1" MaxV="0.12" ReV="11" Color="237,0,0" Label="0.1~0.12" />
+			<ReMap id="12" MinV="0.12" MaxV="0.14" ReV="12" Color="196,0,0" Label="0.12~0.14" />
+			<ReMap id="13" MinV="0.14" MaxV="0.16" ReV="13" Color="161,0,0" Label="0.14~0.16" />
+			<ReMap id="14" MinV="0.16" MaxV="0.2" ReV="14" Color="128,0,0" Label="高" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="AOD_H8_AHI">
+		<ProdDesp>气溶胶光学厚度</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="0.2" ReV="1" Color="25,80,250" Label="0~0.2"/>
+			<ReMap id="2" MinV="0.2" MaxV="0.4" ReV="2" Color="58,163,254" Label="0.2~0.4"/>
+			<ReMap id="3" MinV="0.4" MaxV="0.6" ReV="3" Color="21,255,255" Label="0.4~0.6"/>
+			<ReMap id="4" MinV="0.6" MaxV="0.8" ReV="4" Color="161,255,164" Label="0.6~0.8"/>
+			<ReMap id="5" MinV="0.8" MaxV="1.0" ReV="5" Color="231,255,71" Label="0.8~1.0"/>
+			<ReMap id="6" MinV="1.0" MaxV="1.2" ReV="6" Color="245,245,45" Label="1.0~1.2"/>
+			<ReMap id="7" MinV="1.2" MaxV="1.4" ReV="7" Color="255,217,0" Label="1.2~1.4"/>
+			<ReMap id="8" MinV="1.4" MaxV="1.6" ReV="8" Color="255,156,0" Label="1.4~1.6"/>
+			<ReMap id="9" MinV="1.6" MaxV="1.8" ReV="9" Color="255,98,0" Label="1.6~1.8"/>
+			<ReMap id="10" MinV="1.8" MaxV="2.0" ReV="10" Color="254,1,0" Label="1.8~2.0"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="PM25_H8_AHI">
+		<ProdDesp>PM25遥感监测</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="ug/m3" FillValue="-1">
+            <ReMap id="1" MinV="0" MaxV="50" ReV="1" Color="25,80,250" Label="0~50"/>
+            <ReMap id="2" MinV="50" MaxV="60" ReV="2" Color="58,163,254" Label="50~60"/>
+            <ReMap id="3" MinV="60" MaxV="70" ReV="3" Color="21,255,255" Label="60~70"/>
+            <ReMap id="4" MinV="70" MaxV="80" ReV="4" Color="161,255,164" Label="70~80"/>
+            <ReMap id="5" MinV="80" MaxV="100" ReV="5" Color="231,255,71" Label="80~100"/>
+            <ReMap id="6" MinV="100" MaxV="110" ReV="6" Color="245,245,45" Label="100~110"/>
+            <ReMap id="7" MinV="110" MaxV="115" ReV="7" Color="255,217,0" Label="110~115"/>
+            <ReMap id="8" MinV="115" MaxV="120" ReV="8" Color="255,156,0" Label="115~120"/>
+            <ReMap id="9" MinV="120" MaxV="125" ReV="9" Color="255,98,0" Label="120~125"/>
+            <ReMap id="10" MinV="125" MaxV="130" ReV="10" Color="254,1,0" Label="125~130"/>
+            <ReMap id="11" MinV="130" MaxV="135" ReV="11" Color="254,1,0" Label="130~135"/>
+            <ReMap id="12" MinV="135" MaxV="140" ReV="12" Color="254,1,0" Label="135~140"/>
+            <ReMap id="13" MinV="140" MaxV="200" ReV="13" Color="254,1,0" Label="140~200"/>
+            <ReMap id="14" MinV="200" MaxV="500" ReV="14" Color="254,1,0" Label="200~500"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="PM10_H8_AHI">
+		<ProdDesp>PM10遥感监测</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="ug/m3" FillValue="-1">
+            <ReMap id="1" MinV="0" MaxV="50" ReV="1" Color="25,80,250" Label="0~50"/>
+            <ReMap id="2" MinV="50" MaxV="60" ReV="2" Color="58,163,254" Label="50~60"/>
+            <ReMap id="3" MinV="60" MaxV="70" ReV="3" Color="21,255,255" Label="60~70"/>
+            <ReMap id="4" MinV="70" MaxV="80" ReV="4" Color="161,255,164" Label="70~80"/>
+            <ReMap id="5" MinV="80" MaxV="100" ReV="5" Color="231,255,71" Label="80~100"/>
+            <ReMap id="6" MinV="100" MaxV="110" ReV="6" Color="245,245,45" Label="100~110"/>
+            <ReMap id="7" MinV="110" MaxV="115" ReV="7" Color="255,217,0" Label="110~115"/>
+            <ReMap id="8" MinV="115" MaxV="120" ReV="8" Color="255,156,0" Label="115~120"/>
+            <ReMap id="9" MinV="120" MaxV="125" ReV="9" Color="255,98,0" Label="120~125"/>
+            <ReMap id="10" MinV="125" MaxV="130" ReV="10" Color="254,1,0" Label="125~130"/>
+            <ReMap id="11" MinV="130" MaxV="135" ReV="11" Color="254,1,0" Label="130~135"/>
+            <ReMap id="12" MinV="135" MaxV="140" ReV="12" Color="254,1,0" Label="135~140"/>
+            <ReMap id="13" MinV="140" MaxV="200" ReV="13" Color="254,1,0" Label="140~200"/>
+            <ReMap id="14" MinV="200" MaxV="500" ReV="14" Color="254,1,0" Label="200~500"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="DUST_SATPY_H8_AHI">
+		<ProdDesp>灰霾</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="" FillValue="-2">
+			<ReMap id="1" MinV="-1" MaxV="-0.8" ReV="1" Color="51,85,255" Label="-1~-0.8" />
+			<ReMap id="2" MinV="-0.8" MaxV="-0.4" ReV="2" Color="59,147,255" Label="-0.8~-0.4" />
+			<ReMap id="3" MinV="-0.4" MaxV="-0.2" ReV="3" Color="41,219,255" Label="-0.4~-0.2" />
+			<ReMap id="4" MinV="-0.2" MaxV="-0.1" ReV="4" Color="92,255,222" Label="-0.2~-0.1" />
+			<ReMap id="5" MinV="-0.1" MaxV="0" ReV="5" Color="167,255,161" Label="-0.1~0" />
+			<ReMap id="6" MinV="0" MaxV="0.02" ReV="6" Color="218,255,97" Label="0~0.02" />
+			<ReMap id="7" MinV="0.02" MaxV="0.04" ReV="7" Color="255,255,0" Label="0.02~0.04" />
+			<ReMap id="8" MinV="0.04" MaxV="0.06" ReV="8" Color="255,195,0" Label="0.04~0.06" />
+			<ReMap id="9" MinV="0.06" MaxV="0.08" ReV="9" Color="255,132,0" Label="0.06~0.08" />
+			<ReMap id="10" MinV="0.08" MaxV="0.1" ReV="10" Color="255,64,0" Label="0.08~0.1" />
+			<ReMap id="11" MinV="0.1" MaxV="0.12" ReV="11" Color="237,0,0" Label="0.1~0.12" />
+			<ReMap id="12" MinV="0.12" MaxV="0.14" ReV="12" Color="196,0,0" Label="0.12~0.14" />
+			<ReMap id="13" MinV="0.14" MaxV="0.16" ReV="13" Color="161,0,0" Label="0.14~0.16" />
+			<ReMap id="14" MinV="0.16" MaxV="0.2" ReV="14" Color="128,0,0" Label="0.16~0.2" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="O3_S5P_TROPOMI">
+		<ProdDesp>臭氧</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="1200" ReV="1" Color="25,80,250" Label="0~1200"/>
+			<ReMap id="2" MinV="1200" MaxV="1300" ReV="2" Color="58,163,254" Label="1200~1300"/>
+			<ReMap id="3" MinV="1300" MaxV="1400" ReV="3" Color="21,255,255" Label="1300~1400"/>
+			<ReMap id="4" MinV="1400" MaxV="1450" ReV="4" Color="161,255,164" Label="1400~1450"/>
+			<ReMap id="5" MinV="1450" MaxV="1500" ReV="5" Color="231,255,71" Label="1450~1500"/>
+			<ReMap id="6" MinV="1500" MaxV="1550" ReV="6" Color="245,245,45" Label="1500~1550"/>
+			<ReMap id="7" MinV="1550" MaxV="1600" ReV="7" Color="255,217,0" Label="1550~1600"/>
+			<ReMap id="8" MinV="1600" MaxV="1650" ReV="8" Color="255,156,0" Label="1600~1650"/>
+			<ReMap id="9" MinV="1650" MaxV="1700" ReV="9" Color="255,98,0" Label="1650~1700"/>
+			<ReMap id="10" MinV="1700" MaxV="1900" ReV="10" Color="254,1,0" Label="1700~1900"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="NO2_S5P_TROPOMI">
+		<ProdDesp>NO2</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="0.5" ReV="1" Color="51,88,255" Label="0~0.5" />
+			<ReMap id="2" MinV="0.5" MaxV="1.0" ReV="2" Color="59,157,255" Label="0.5~1" />
+			<ReMap id="3" MinV="1.0" MaxV="1.5" ReV="3" Color="33,229,255" Label="1~1.5" />
+			<ReMap id="4" MinV="1.5" MaxV="2.0" ReV="4" Color="112,255,210" Label="1.5~2.0" />
+			<ReMap id="5" MinV="2.0" MaxV="2.5" ReV="5" Color="182,255,143" Label="2.0~2.5" />
+			<ReMap id="6" MinV="2.5" MaxV="3.0" ReV="6" Color="231,255,74" Label="2.5~3.0" />
+			<ReMap id="7" MinV="3.0" MaxV="4.0" ReV="7" Color="255,234,0" Label="3.0~4.0" />
+			<ReMap id="8" MinV="4.0" MaxV="5.0" ReV="8" Color="255,166,0" Label="4.0~5.0" />
+			<ReMap id="9" MinV="5.0" MaxV="10.0" ReV="9" Color="204,102,0" Label="5.0~10.0" />
+			<ReMap id="10" MinV="10.0" MaxV="100.0" ReV="10" Color="255,0,0" Label="10.0~100.0" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="SO2_S5P_TROPOMI">
+		<ProdDesp>SO2</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="5" ReV="1" Color="51,88,255" Label="0~5" />
+			<ReMap id="2" MinV="5" MaxV="7" ReV="2" Color="59,157,255" Label="5~7" />
+			<ReMap id="3" MinV="7" MaxV="10" ReV="3" Color="33,229,255" Label="7~10" />
+			<ReMap id="4" MinV="10" MaxV="20" ReV="4" Color="112,255,210" Label="10~20" />
+			<ReMap id="5" MinV="20" MaxV="30" ReV="5" Color="182,255,143" Label="20~30" />
+			<ReMap id="6" MinV="30" MaxV="40" ReV="6" Color="231,255,74" Label="30~40" />
+			<ReMap id="7" MinV="40" MaxV="50" ReV="7" Color="255,234,0" Label="40~50" />
+			<ReMap id="8" MinV="50" MaxV="80" ReV="8" Color="255,166,0" Label="50~80" />
+			<ReMap id="9" MinV="80" MaxV="100" ReV="9" Color="204,102,0" Label="80~100" />
+			<ReMap id="10" MinV="100" MaxV="200" ReV="10" Color="255,0,0" Label="100~200" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="DUST_H8_AHI">
+        <ProdDesp>PM10遥感监测</ProdDesp>
+        <Filter>*.(tiff|TIFF)</Filter>
+        <ReMaps Unit="" FillValue="-1">
+            <ReMap id="1" MinV="0" MaxV="235" ReV="1" Color="240,236,170" Label="低"/>
+            <ReMap id="2" MinV="235" MaxV="240" ReV="2" Color="222,214,153" Label=""/>
+            <ReMap id="3" MinV="240" MaxV="245" ReV="3" Color="207,194,138" Label=""/>
+            <ReMap id="4" MinV="245" MaxV="250" ReV="4" Color="189,173,123" Label=""/>
+            <ReMap id="5" MinV="250" MaxV="255" ReV="5" Color="173,154,108" Label=""/>
+            <ReMap id="6" MinV="255" MaxV="260" ReV="6" Color="158,136,95" Label=""/>
+            <ReMap id="7" MinV="260" MaxV="265" ReV="7" Color="143,118,81" Label=""/>
+            <ReMap id="8" MinV="265" MaxV="270" ReV="8" Color="130,103,70" Label=""/>
+            <ReMap id="9" MinV="270" MaxV="275" ReV="9" Color="115,87,59" Label=""/>
+            <ReMap id="10" MinV="275" MaxV="300" ReV="10" Color="102,72,48" Label="高"/>
+        </ReMaps>
+        <OutTimeMin>60</OutTimeMin>
+        <IDLExePath>Null</IDLExePath>
+    </Plugin>
+<!--	<Plugin PluginName="DUST_H8_AHI">-->
+<!--        <ProdDesp>PM10遥感监测</ProdDesp>-->
+<!--        <Filter>*.(tiff|TIFF)</Filter>-->
+<!--        <ReMaps Unit="" FillValue="-1">-->
+<!--            <ReMap id="1" MinV="0" MaxV="1" ReV="1" Color="255,204,204" Label="低"/>-->
+<!--            <ReMap id="2" MinV="1" MaxV="2" ReV="2" Color="255,184,176" Label=""/>-->
+<!--            <ReMap id="3" MinV="2" MaxV="3" ReV="3" Color="255,164,150" Label=""/>-->
+<!--            <ReMap id="4" MinV="3" MaxV="4" ReV="4" Color="255,144,125" Label=""/>-->
+<!--            <ReMap id="5" MinV="4" MaxV="5" ReV="5" Color="250,125,102" Label=""/>-->
+<!--            <ReMap id="6" MinV="5" MaxV="6" ReV="6" Color="247,104,79" Label=""/>-->
+<!--            <ReMap id="7" MinV="6" MaxV="7" ReV="7" Color="242,85,61" Label=""/>-->
+<!--            <ReMap id="8" MinV="7" MaxV="8" ReV="8" Color="235,65,42" Label=""/>-->
+<!--            <ReMap id="9" MinV="8" MaxV="9" ReV="9" Color="227,40,23" Label=""/>-->
+<!--            <ReMap id="10" MinV="9" MaxV="10" ReV="10" Color="219,0,0" Label="高"/>-->
+<!--        </ReMaps>-->
+<!--        <OutTimeMin>60</OutTimeMin>-->
+<!--        <IDLExePath>Null</IDLExePath>-->
+<!--    </Plugin>-->
+	<Plugin PluginName="AOD_H8_AHI_COMPOSE">
+		<ProdDesp>气溶胶光学厚度</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="0.2" ReV="1" Color="25,80,250" Label="0~0.2"/>
+			<ReMap id="2" MinV="0.2" MaxV="0.4" ReV="2" Color="58,163,254" Label="0.2~0.4"/>
+			<ReMap id="3" MinV="0.4" MaxV="0.6" ReV="3" Color="21,255,255" Label="0.4~0.6"/>
+			<ReMap id="4" MinV="0.6" MaxV="0.8" ReV="4" Color="161,255,164" Label="0.6~0.8"/>
+			<ReMap id="5" MinV="0.8" MaxV="1.0" ReV="5" Color="231,255,71" Label="0.8~1.0"/>
+			<ReMap id="6" MinV="1.0" MaxV="1.2" ReV="6" Color="245,245,45" Label="1.0~1.2"/>
+			<ReMap id="7" MinV="1.2" MaxV="1.4" ReV="7" Color="255,217,0" Label="1.2~1.4"/>
+			<ReMap id="8" MinV="1.4" MaxV="1.6" ReV="8" Color="255,156,0" Label="1.4~1.6"/>
+			<ReMap id="9" MinV="1.6" MaxV="1.8" ReV="9" Color="255,98,0" Label="1.6~1.8"/>
+			<ReMap id="10" MinV="1.8" MaxV="2.0" ReV="10" Color="254,1,0" Label="1.8~2.0"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="PM25_H8_AHI_COMPOSE">
+		<ProdDesp>PM25遥感监测</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="ug/m3" FillValue="-1">
+            <ReMap id="1" MinV="0" MaxV="50" ReV="1" Color="25,80,250" Label="0~50"/>
+            <ReMap id="2" MinV="50" MaxV="60" ReV="2" Color="58,163,254" Label="50~60"/>
+            <ReMap id="3" MinV="60" MaxV="70" ReV="3" Color="21,255,255" Label="60~70"/>
+            <ReMap id="4" MinV="70" MaxV="80" ReV="4" Color="161,255,164" Label="70~80"/>
+            <ReMap id="5" MinV="80" MaxV="100" ReV="5" Color="231,255,71" Label="80~100"/>
+            <ReMap id="6" MinV="100" MaxV="110" ReV="6" Color="245,245,45" Label="100~110"/>
+            <ReMap id="7" MinV="110" MaxV="115" ReV="7" Color="255,217,0" Label="110~115"/>
+            <ReMap id="8" MinV="115" MaxV="120" ReV="8" Color="255,156,0" Label="115~120"/>
+            <ReMap id="9" MinV="120" MaxV="125" ReV="9" Color="255,98,0" Label="120~125"/>
+            <ReMap id="10" MinV="125" MaxV="130" ReV="10" Color="254,1,0" Label="125~130"/>
+            <ReMap id="11" MinV="130" MaxV="135" ReV="11" Color="254,1,0" Label="130~135"/>
+            <ReMap id="12" MinV="135" MaxV="140" ReV="12" Color="254,1,0" Label="135~140"/>
+            <ReMap id="13" MinV="140" MaxV="200" ReV="13" Color="254,1,0" Label="140~200"/>
+            <ReMap id="14" MinV="200" MaxV="500" ReV="14" Color="254,1,0" Label="200~500"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="PM10_H8_AHI_COMPOSE">
+		<ProdDesp>PM10遥感监测</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="ug/m3" FillValue="-1">
+            <ReMap id="1" MinV="0" MaxV="50" ReV="1" Color="25,80,250" Label="0~50"/>
+            <ReMap id="2" MinV="50" MaxV="60" ReV="2" Color="58,163,254" Label="50~60"/>
+            <ReMap id="3" MinV="60" MaxV="70" ReV="3" Color="21,255,255" Label="60~70"/>
+            <ReMap id="4" MinV="70" MaxV="80" ReV="4" Color="161,255,164" Label="70~80"/>
+            <ReMap id="5" MinV="80" MaxV="100" ReV="5" Color="231,255,71" Label="80~100"/>
+            <ReMap id="6" MinV="100" MaxV="110" ReV="6" Color="245,245,45" Label="100~110"/>
+            <ReMap id="7" MinV="110" MaxV="115" ReV="7" Color="255,217,0" Label="110~115"/>
+            <ReMap id="8" MinV="115" MaxV="120" ReV="8" Color="255,156,0" Label="115~120"/>
+            <ReMap id="9" MinV="120" MaxV="125" ReV="9" Color="255,98,0" Label="120~125"/>
+            <ReMap id="10" MinV="125" MaxV="130" ReV="10" Color="254,1,0" Label="125~130"/>
+            <ReMap id="11" MinV="130" MaxV="135" ReV="11" Color="254,1,0" Label="130~135"/>
+            <ReMap id="12" MinV="135" MaxV="140" ReV="12" Color="254,1,0" Label="135~140"/>
+            <ReMap id="13" MinV="140" MaxV="200" ReV="13" Color="254,1,0" Label="140~200"/>
+            <ReMap id="14" MinV="200" MaxV="500" ReV="14" Color="254,1,0" Label="200~500"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="O3_S5P_TROPOMI_COMPOSE">
+		<ProdDesp>臭氧</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="1200" ReV="1" Color="25,80,250" Label="0~1200"/>
+			<ReMap id="2" MinV="1200" MaxV="1300" ReV="2" Color="58,163,254" Label="1200~1300"/>
+			<ReMap id="3" MinV="1300" MaxV="1400" ReV="3" Color="21,255,255" Label="1300~1400"/>
+			<ReMap id="4" MinV="1400" MaxV="1450" ReV="4" Color="161,255,164" Label="1400~1450"/>
+			<ReMap id="5" MinV="1450" MaxV="1500" ReV="5" Color="231,255,71" Label="1450~1500"/>
+			<ReMap id="6" MinV="1500" MaxV="1550" ReV="6" Color="245,245,45" Label="1500~1550"/>
+			<ReMap id="7" MinV="1550" MaxV="1600" ReV="7" Color="255,217,0" Label="1550~1600"/>
+			<ReMap id="8" MinV="1600" MaxV="1650" ReV="8" Color="255,156,0" Label="1600~1650"/>
+			<ReMap id="9" MinV="1650" MaxV="1700" ReV="9" Color="255,98,0" Label="1650~1700"/>
+			<ReMap id="10" MinV="1700" MaxV="1900" ReV="10" Color="254,1,0" Label="1700~1900"/>
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="NO2_S5P_TROPOMI_COMPOSE">
+		<ProdDesp>NO2</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="0.5" ReV="1" Color="51,88,255" Label="0~0.5" />
+			<ReMap id="2" MinV="0.5" MaxV="1.0" ReV="2" Color="59,157,255" Label="0.5~1" />
+			<ReMap id="3" MinV="1.0" MaxV="1.5" ReV="3" Color="33,229,255" Label="1~1.5" />
+			<ReMap id="4" MinV="1.5" MaxV="2.0" ReV="4" Color="112,255,210" Label="1.5~2.0" />
+			<ReMap id="5" MinV="2.0" MaxV="2.5" ReV="5" Color="182,255,143" Label="2.0~2.5" />
+			<ReMap id="6" MinV="2.5" MaxV="3.0" ReV="6" Color="231,255,74" Label="2.5~3.0" />
+			<ReMap id="7" MinV="3.0" MaxV="4.0" ReV="7" Color="255,234,0" Label="3.0~4.0" />
+			<ReMap id="8" MinV="4.0" MaxV="5.0" ReV="8" Color="255,166,0" Label="4.0~5.0" />
+			<ReMap id="9" MinV="5.0" MaxV="10.0" ReV="9" Color="204,102,0" Label="5.0~10.0" />
+			<ReMap id="10" MinV="10.0" MaxV="100.0" ReV="10" Color="255,0,0" Label="10.0~100.0" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+	<Plugin PluginName="SO2_S5P_TROPOMI_COMPOSE">
+		<ProdDesp>SO2</ProdDesp>
+		<Filter>*.(tiff|TIFF)</Filter>
+		<ReMaps Unit="mol/cm2" FillValue="-1">
+			<ReMap id="1" MinV="0" MaxV="5" ReV="1" Color="51,88,255" Label="0~5" />
+			<ReMap id="2" MinV="5" MaxV="7" ReV="2" Color="59,157,255" Label="5~7" />
+			<ReMap id="3" MinV="7" MaxV="10" ReV="3" Color="33,229,255" Label="7~10" />
+			<ReMap id="4" MinV="10" MaxV="20" ReV="4" Color="112,255,210" Label="10~20" />
+			<ReMap id="5" MinV="20" MaxV="30" ReV="5" Color="182,255,143" Label="20~30" />
+			<ReMap id="6" MinV="30" MaxV="40" ReV="6" Color="231,255,74" Label="30~40" />
+			<ReMap id="7" MinV="40" MaxV="50" ReV="7" Color="255,234,0" Label="40~50" />
+			<ReMap id="8" MinV="50" MaxV="80" ReV="8" Color="255,166,0" Label="50~80" />
+			<ReMap id="9" MinV="80" MaxV="100" ReV="9" Color="204,102,0" Label="80~100" />
+			<ReMap id="10" MinV="100" MaxV="200" ReV="10" Color="255,0,0" Label="100~200" />
+		</ReMaps>
+		<OutTimeMin>60</OutTimeMin>
+		<IDLExePath>Null</IDLExePath>
+	</Plugin>
+</ProdCfg>

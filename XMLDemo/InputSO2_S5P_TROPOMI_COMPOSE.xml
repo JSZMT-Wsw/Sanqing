@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <xml identify="SO2_S5P_TROPOMI_COMPOSE">
+    <input des="areaID" identify="areaID" type="string">300000000000</input>
+    <input des="产品期次" identify="issue" type="string">201909000000</input>
+	<input des="产品周期" identify="cycle" type="string">COAM</input>
+    <input des="输入文件路径" identify="inputFile" type="string">D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201025T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201026T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201027T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201028T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201029T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201030T000000000Z.tif,D:\Proj\GeoserverFolder\SO2_S5P_TROPOMI\so2_s5p_tropomi_cood20201031T000000000Z.tif</input>
+    <output des="输出文件夹路径" identify="outFolder" type="string">D:\JiNan\Proj\Production</output>
+    <output des="输出xml目录" identify="outXMLPath" type="string">D:/JiNan/Proj/outXML/SO2_S5P_TROPOMI_COMPOSE_201909000000.xml</output>
+    <output des="log目录" identify="outLogPath" type="string">D:/JiNan/Proj/outLog/SO2_S5P_TROPOMI_COMPOSE_201909000000.log</output>
+</xml>

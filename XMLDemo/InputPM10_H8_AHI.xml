@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml identify="PM10_H8_AHI">
+  <input des="行政区划编号" identify="areaID" type="string">300000000000</input>
+  <input des="产品期次" identify="issue" type="string">202011060900</input>
+  <input des="产品周期" identify="cycle" type="string">COOH</input>
+  <input des="输入文件夹" identify="inputFile" type="string">D:\001project\003WeiFang\RSPlatForm</input>
+  <input des="是否训练模型" identify="flag" type="string">True</input>
+  <input des="输入aod文件路径" identify="ARPFiles" type="string">
+  D:\JiNan\Proj\Data\ARP\2020-11-06\H08_20201106_0100_1HARP030_FLDK.02401_02401.nc;
+  D:\JiNan\Proj\Data\ARP\2020-11-06\H08_20201106_0200_1HARP030_FLDK.02401_02401.nc;
+  D:\JiNan\Proj\Data\ARP\2020-11-06\H08_20201106_0300_1HARP030_FLDK.02401_02401.nc;
+  D:\JiNan\Proj\Data\ARP\2020-11-06\H08_20201106_0400_1HARP030_FLDK.02401_02401.nc
+  </input>
+  <input des="输入环境站文件路径" identify="STNFiles" type="string">
+  D:\JiNan\Proj\Data\STN\2020-11-06\2020110609.csv;
+  D:\JiNan\Proj\Data\STN\2020-11-06\2020110610.csv;
+  D:\JiNan\Proj\Data\STN\2020-11-06\2020110611.csv;
+  D:\JiNan\Proj\Data\STN\2020-11-06\2020110612.csv
+  </input>
+  <input des="输入气象站文件路径" identify="QXFiles" type="string">
+  D:\JiNan\Proj\Data\QX\2020-11-06\2020110609.csv;
+  D:\JiNan\Proj\Data\QX\2020-11-06\2020110610.csv;
+  D:\JiNan\Proj\Data\QX\2020-11-06\2020110611.csv;
+  D:\JiNan\Proj\Data\QX\2020-11-06\2020110612.csv
+  </input>
+  <input des="输入当前aod文件路径" identify="curARPFile" type="string">
+  D:\JiNan\Proj\Data\ARP\2020-11-06\H08_20201106_0100_1HARP030_FLDK.02401_02401.nc
+  </input>
+  <input des="输入当前环境站文件路径" identify="curSTNFile" type="string">
+  D:\JiNan\Proj\Data\STN\2020-11-06\2020110609.csv
+  </input>
+  <input des="输入当前气象站站文件路径" identify="curQXFile" type="string">
+  D:\JiNan\Proj\Data\QX\2020-11-06\2020110609.csv
+  </input>
+  <output des="输出目录" identify="outFolder" type="string">
+  D:/JiNan/Proj/Production
+  </output>
+  <output des="输出xml路径" identify="outXMLPath" type="string">
+  D:/JiNan/Proj/Production/PM10_H8_AHI/outputInfo/202011060900_COOH_1607597486867.xml
+  </output>
+  <output des="输出log路径" identify="outLogPath" type="string">
+  D:/JiNan/Proj/Production/PM10_H8_AHI/outputInfo/202011060900_COOH_1607597486867.log
+  </output>
+</xml>

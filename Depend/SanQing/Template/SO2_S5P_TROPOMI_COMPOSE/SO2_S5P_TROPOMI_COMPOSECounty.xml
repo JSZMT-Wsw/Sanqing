@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="布局" printResolution="100" drivenPages="true" Margin="105">
+    <PageCollection>
+        <LayoutItem type="PageSetup" frame="True" background="True" outlineWidthM="1" size="11.36,13.93">
+            <FrameColor red="0" green="0" blue="0" alpha="255" />
+            <BackgroundColor red="255" green="255" blue="255" alpha="255"/>
+        </LayoutItem>
+    </PageCollection>
+    <LayoutItem type="DataFrame" frame="true" background="true" outlineWidthM="1" positionOnPage="0.06, 0.13, 0.90, 0.77">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="242" green="239" blue="232" alpha="255"/>
+        <Extent xmax="118.5" xmin="115.75" ymin="35.75" ymax="37.75"/>
+        <ComposerMapGrid gridFrameStyle="1" gridFrameWidth="2" gridFramePenThickness="2" gridFramePenColor="0,0,0,255" gridFramePad="3" topAnnotationDisplay="3" bottomAnnotationDisplay="1" leftAnnotationDisplay="1"  rightAnnotationDisplay="3" name="grid">
+            <lineStyle>Null</lineStyle>
+            <markerStyle>Null</markerStyle>
+            <annotationFontProperties description="Times New Roman,13" style="null"/>
+        </ComposerMapGrid>
+    </LayoutItem>
+    <LayoutItem type="Title" labelText="SO$_2$遥感监测图" frame="True" background="false" outlineWidthM="3" positionOnPage="0.4, 0.94, 0.2, 0.05" pad="0.05" y="1.05">
+        <FrameColor red="255" green="255" blue="255" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="255"/>
+        <LabelFont style="" description="SimHei,30,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="Issue" labelText="2019年9月1日" frame="True" background="false" outlineWidthM="3" positionOnPage="0.72, 0.90, 0.2, 0.05">
+        <FrameColor red="255" green="255" blue="255" alpha="0"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        <LabelFont style="" description="simsun,20,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+
+
+    <LayoutItem type="Atlas" linestyle="-" frame="true" background="True" outlineWidthM="3" coverageLayerName="AreaCity" zorder='7' file="D:\New_JiNan\RSPlatForm\Depend\JiNan\CompShp\AreaCounty.shp">
+        <FrameColor red="110" green="110" blue="110" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+    </LayoutItem>
+    <LayoutItem type="Atlas" linestyle="-" frame="true" background="True" outlineWidthM="0.5" coverageLayerName="AreaCounty" zorder='8' file="D:\New_JiNan\RSPlatForm\Depend\JiNan\Other\othershp\qu_JN.shp">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+    </LayoutItem>
+	<LayoutItem type="Atlas" linestyle="-" frame="true" background="True" outlineWidthM="1.5" coverageLayerName="xianglincity" zorder='70' file="D:\New_JiNan\RSPlatForm\Depend\JiNan\Other\othershp\shi_JN_1.shp">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+    </LayoutItem>
+    <LayoutItem type="Atlas" linestyle="--" frame="False" background="True" outlineWidthM="0" coverageLayerName="river" zorder='1' file="D:\New_JiNan\RSPlatForm\Depend\JiNan/Other/othershp/river_wai.shp">
+        <FrameColor red="0" green="0" blue="0" alpha="0"/>
+        <BackgroundColor red="190" green="232" blue="255" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="Atlas" linestyle="&#45;&#45;" frame="true" background="True" outlineWidthM="0" coverageLayerName="lakes" zorder='1' file="D:\New_JiNan\RSPlatForm\Depend\JiNan/Other/othershp/lakes.shp">-->
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="190" green="232" blue="255" alpha="255"/>
+    </LayoutItem>
+
+
+
+    <LayoutItem type="Label" labelText="图    例" frame="True" background="false" outlineWidthM="3" positionOnPage="0.01, 0.055, 0.2, 0.05">
+        <FrameColor red="255" green="255" blue="255" alpha="0"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        <LabelFont style="" description="SimHei,20,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="Label" labelText="(单位：DU)" frame="True" background="false" outlineWidthM="3" positionOnPage="0.13, 0.055, 0.2, 0.05">
+        <FrameColor red="255" green="255" blue="255" alpha="0"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        <LabelFont style="" description="simsun,14,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="Label" labelText="数据源:Sentinel-5P/TROPOMI" frame="True" background="false" outlineWidthM="3" positionOnPage="0.445, 0.055, 0.2, 0.05">
+        <FrameColor red="255" green="255" blue="255" alpha="0"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        <LabelFont style="" description="simsun,16,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="Label" labelText="分辨率:7km" frame="True" background="false" outlineWidthM="3" positionOnPage="0.363, 0.01, 0.2, 0.05">
+        <FrameColor red="255" green="255" blue="255" alpha="0"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="0"/>
+        <LabelFont style="" description="simsun,16,5"/>
+        <FontColor red="0" green="0" blue="0" alpha="255"/>
+    </LayoutItem>
+
+    <LayoutItem type="ScaleBar" name="比例尺" background="false" frame="false" positionOnPage="0.7,0.0425" maxBarWidth="0.24" BarHeight="0.006" unitLabel="km" >
+        <text-style textColor="0,0,0,255" fontFamily="simsun" fontSize="12"/>
+        <fillColor  red="0"  green="0" blue="0" alpha="255"/>
+        <fillColor2 red="255" green="255" blue="255" alpha="255"/>
+    </LayoutItem>
+    <LayoutItem type="NorthArrow" name="指北针" positionOnPage="0.97,0.95" Width="0.05" Height="0.11" pad="0.12" >
+        <Font fontFamily="Times New Roman" fontSize="25" fontWeight="20"/>
+    </LayoutItem>
+
+
+
+    <LayoutItem type="Annotation" name="历下区" lon="117.0" lat="36.634">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="市中区" lon="116.876" lat="36.56">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="槐荫区" lon="116.809" lat="36.661">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="天桥区" lon="116.892" lat="36.767">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="历城区" lon="117.171" lat="36.586">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="长清区" lon="116.722" lat="36.404">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="平阴县" lon="116.303" lat="36.174">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="济阳县" lon="117.022" lat="37.006">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="商河县" lon="117.131" lat="37.291">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="章丘区" lon="117.448" lat="36.715">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="莱芜区" lon="117.542" lat="36.286">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+    <LayoutItem type="Annotation" name="钢城区" lon="117.74" lat="36.11">
+        <Font family="SimHei" Size="16" weight="16" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+
+
+	<LayoutItem type="Annotation" name="临沂市" lon="118.176" lat="35.872">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="潍坊市" lon="118.329" lat="36.542">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="淄博市" lon="117.838" lat="36.635">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="东营市" lon="118.315" lat="37.53">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="滨州市" lon="117.679" lat="37.482">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="德州市" lon="116.509" lat="37.177">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="泰安市" lon="117.045" lat="36.029">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+	<LayoutItem type="Annotation" name="聊城市" lon="116.192" lat="36.365">
+        <Font family="SimHei" Size="20" weight="20" color="0, 0, 0, 255"/>
+        <Mark marker="." Color="0, 0, 0, 255" size="50" />
+    </LayoutItem>
+</Layout>
